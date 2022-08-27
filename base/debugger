@@ -1,0 +1,33 @@
+
+
+terminale
+ 
+
+
+1) compila cosi : gcc -ggdb pro.c -o pro
+
+2) esegui : gdb pro
+
+3) layout src
+
+4) break numero_di_linea_dove_voglio_fermare_l_esecuzione (es. break 23)
+
+4.5) run - per lanciare l esecuzione .
+
+4.6) SE NECESSITO DI ARGOMENTI A RIGA DI COMANDO run arg1 arg2 arg3
+
+5) next - va avanti di un istruzione
+
+5.5) step - mi serve per entrare dentro le funzioni altrimenti con next continuerei avanti
+
+6) p nome_variabile (mi stampa il contenuto di quella variabile)
+
+6.5) ALTERNATIVA A p - display nome_variabile
+
+6.6) set var nome_variabile=qualcosa - imposta una variabile manualmente
+
+7) c (il programma continua fino al prossio break)
+
+ALTRE COSE
+
+delete break 23 - elimina il break impostato prima
